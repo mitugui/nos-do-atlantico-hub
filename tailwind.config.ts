@@ -47,6 +47,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        orange: {
+          DEFAULT: "hsl(var(--orange))",
+          foreground: "hsl(var(--orange-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -84,6 +88,22 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.6s ease-out",
+        "slide-up": "slide-up 0.8s ease-out",
+      },
+      backgroundImage: {
+        "gradient-brown": "var(--gradient-brown)",
+        "gradient-warm": "var(--gradient-warm)", 
+        "gradient-hero": "var(--gradient-hero)",
+      },
+      boxShadow: {
+        "warm": "var(--shadow-warm)",
+        "card": "var(--shadow-card)",
+        "orange": "var(--shadow-orange)",
+      },
+      transitionProperty: {
+        "smooth": "var(--transition-smooth)",
+        "bounce": "var(--transition-bounce)",
       },
     },
   },
