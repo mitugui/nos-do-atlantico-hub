@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -23,10 +24,8 @@ const Navigation = () => {
       }`}>
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-brown rounded-lg flex items-center justify-center">
-              <span className="text-orange font-bold text-lg">N</span>
-            </div>
+          <div className="flex items-center space-x-3">
+            <img src={logo} alt="Nós do Atlântico" className="w-10 h-10" />
             <span className="text-xl font-bold text-primary">Nós do Atlântico</span>
           </div>
 
